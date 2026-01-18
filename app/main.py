@@ -11,7 +11,7 @@ and API routes live in app/api.py
 """
 
 from fastapi import FastAPI
-from app.api import router  # This is your new api.py
+from app.api.api import router  # This is your new api.py
 
 # ---------------- FastAPI App ----------------
 
